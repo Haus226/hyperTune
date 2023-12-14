@@ -1,0 +1,14 @@
+,two-sided,larger,smaller,two-sided res,larger res,smaller res
+result/data/Aged DE Tuned.csv,0.00023,0.00011,0.99989,not equal,less,less
+result/data/Aged HS Tuned.csv,0.12372,0.93814,0.06186,equal,greater,less
+result/data/Aged PSO Tuned.csv,0.0,0.0,1.0,not equal,less,less
+result/data/Aged Byopt DE Tuned.csv,0.4843,0.24215,0.75785,equal,greater,less
+result/data/Aged Byopt HS Tuned.csv,0.00037,0.99982,0.00018,not equal,greater,greater
+result/data/Aged Byopt PSO Tuned.csv,0.0,0.0,1.0,not equal,less,less
+result/data/HS Tuned.csv,0.71657,0.64172,0.35828,equal,greater,less
+result/data/PSO Tuned.csv,0.0,1.0,0.0,not equal,greater,greater
+result/data/Byopt DE Tuned.csv,0.0,0.0,1.0,not equal,less,less
+result/data/Byopt HS Tuned.csv,0.0001,0.99995,5e-05,not equal,greater,greater
+result/data/Byopt PSO Tuned.csv,0.0,1.0,0.0,not equal,greater,greater
+result/data/Voting.csv,2e-05,1e-05,0.99999,not equal,less,less
+result/data/Naive.csv,0.0,1.0,0.0,not equal,greater,greater
