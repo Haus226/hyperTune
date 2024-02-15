@@ -11,6 +11,9 @@ Dataset:
 ## Model Architecture
 ![Model Architecture](result/graph.svg)
 
+## Verification and Vlidation
+
+
 ## Visualization of Results
 ![Alt text](result/image/boxplot.png)
 ![Alt text](result/image/analysis.png)
