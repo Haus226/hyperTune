@@ -4,6 +4,9 @@ CNN Model Hyperparameter Tuning Algorithms:
 - Differential Evolution
 - Harmony Search
 - Particle Swarm Optimization
+  
+Dataset:
+- https://www.kaggle.com/datasets/umairshahpirzada/birds-20-species-image-classification
 
 ## Model Architecture
 ![Model Architecture](result/graph.svg)
