@@ -275,15 +275,18 @@ class HarmonySearch(Optimizer):
 
                 # Update worst_idx first and followed by best_idx
                 # Ignore the trial harmony if worse than the worst harmony
-                if f > self.fitness[worst_idx] or (age[jdx] == -1):
+                if (age[jdx] == -1):
+                    self.pop[jdx] = trial
+                    self.fitness[jdx] = f
+                    age[jdx] = self.ttl
+                elif f > self.fitness[worst_idx]:
                     self.pop[worst_idx] = trial
                     self.fitness[worst_idx] = f
                     age[jdx] = self.ttl
-                    if f > self.best_score:
-                        best_harmony = trial
-                        self.best_score = f
-                    worst_idx = np.argmin(self.fitness)
-
+                if f > self.best_score:
+                    best_harmony = trial
+                    self.best_score = f
+                worst_idx = np.argmin(self.fitness)
             self.best_params = convert_to_params(best_harmony, self.params)
             fitness_history[idx + 1] = self.fitness.copy()
             harmony_history[idx + 1] = self.pop.copy()
